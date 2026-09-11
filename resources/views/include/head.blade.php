@@ -2,8 +2,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>@yield('title', 'Fasal Tracker - Choose Your Procurement Slot')</title>
-    <meta name="description" content="@yield('description', 'Fasal Tracker is a smart platform that helps farmers book procurement slots, get schedule updates, and track their procurement status.')">
+    <title>@yield('title', 'फसल ट्रैकर - अपनी फसल बिक्री का स्लॉट चुनें')</title>
+    <meta name="description" content="@yield('description', 'फसल ट्रैकर एक स्मार्ट प्लेटफ़ॉर्म है जो किसानों को फसल बिक्री के स्लॉट बुक करने, शेड्यूल अपडेट प्राप्त करने और अपनी फसल बिक्री की स्थिति ट्रैक करने में मदद करता है।')">
 
     {{-- ALL THE CSS LINKS --}}
     {{-- <link href="{{ asset('images/favicon.ico') }}" rel="icon" /> --}}
