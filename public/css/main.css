@@ -391,7 +391,6 @@ body.sidebar-minimized .sidebar-profile {
    5. Main Wrapper Layout
 --------------------------------------------------------------------- */
 .main-wrapper {
-    margin-left: var(--sidebar-width);
     padding: 2rem 2.5rem;
     min-height: 100vh;
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -412,7 +411,7 @@ body.sidebar-minimized .sidebar-profile {
     margin-top: -2rem;
     margin-left: -2.5rem;
     margin-right: -2.5rem;
-    padding: 1.25rem 2.5rem;
+    padding: 0.4rem 2.5rem;
     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
     display: grid !important;
     grid-template-columns: 1fr 480px 1fr !important;
@@ -3181,6 +3180,20 @@ span.flatpickr-weekday {
 
 .text-lime {
     color: var(--brand-lime) !important;
+}
+
+/* Harsh changes add */
+.navbar-menu {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li a{
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 
