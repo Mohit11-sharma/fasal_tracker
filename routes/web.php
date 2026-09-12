@@ -29,3 +29,7 @@ Route::get('/register', function () {
 Route::get('/login', function () {
     return view('frontend.forms.login');
 })->name('login');
+
+Route::get('/contact', function () {
+    return view('frontend.contact');
+})->name('contact');

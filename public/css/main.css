@@ -392,7 +392,7 @@ body.sidebar-minimized .sidebar-profile {
 --------------------------------------------------------------------- */
 .main-wrapper {
     padding: 2rem 2.5rem;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     display: flex;
     flex-direction: column;

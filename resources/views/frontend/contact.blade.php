@@ -9,7 +9,7 @@
                 <i class="bi bi-file-earmark-fill"></i>
             </div>
 
-            <h3 class="mb-2">Home Page Coming Soon</h3>
+            <h3 class="mb-2">Contact Page Coming Soon</h3>
         </div>
     </div>
 </div>
