@@ -20,5 +20,5 @@
     {{-- <script src="{{ asset('libs/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('libs/apexcharts/apexcharts.min.js') }}"></script>
     <script src="{{ asset('libs/flatpickr/flatpickr.min.js') }}"></script> --}}
-    <script src={{ asset('js/dashboard.js') }}></script>
+    <script src={{ asset('js/custom.js') }}></script>
 </body>
