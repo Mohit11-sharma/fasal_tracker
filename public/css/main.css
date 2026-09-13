@@ -402,8 +402,8 @@ body.sidebar-minimized .sidebar-profile {
    6. Custom Header / Navbar Component
 --------------------------------------------------------------------- */
 .navbar-custom {
-    position: sticky;
-    top: 0;
+    position: fixed;
+    top: auto;
     z-index: 1000;
     background-color: rgba(244, 246, 245, 0.85);
     backdrop-filter: blur(12px);
@@ -412,9 +412,9 @@ body.sidebar-minimized .sidebar-profile {
     margin-left: -2.5rem;
     margin-right: -2.5rem;
     padding: 0.4rem 2.5rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(2, 2, 2, 27%);
     display: grid !important;
-    grid-template-columns: 1fr 480px 1fr !important;
+    grid-template-columns: 6fr 750px 2fr !important;
     align-items: center;
     margin-bottom: 2rem;
     gap: 1.5rem;
@@ -1733,7 +1733,7 @@ span.flatpickr-weekday {
    13. Login Page Styles (.login-wrapper)
 --------------------------------------------------------------------- */
 .login-wrapper {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1771,7 +1771,7 @@ span.flatpickr-weekday {
     padding: 2.5rem;
     width: 100%;
     max-width: 450px;
-    box-shadow: var(--shadow-lg);
+    /* box-shadow: var(--shadow-lg); */
     z-index: 1;
     position: relative;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -1779,7 +1779,7 @@ span.flatpickr-weekday {
 
 .login-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 30px 60px rgba(11, 19, 15, 0.12);
+    /* box-shadow: 0 30px 60px rgba(11, 19, 15, 0.12); */
 }
 
 .login-brand {
@@ -3197,4 +3197,52 @@ span.flatpickr-weekday {
 }
 
 
+ /* Mohit Changes */
 
+ .signup-card {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-xxl);
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 700px;
+    /* box-shadow: var(--shadow-lg); */
+    z-index: 1;
+    position: relative;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-upload{
+    width: 100px !important;
+    height: 100px !important;
+    max-width: 100px !important;
+    max-height: 100px !important;
+    min-width: 100px !important;
+    min-height: 100px !important;
+    object-fit: cover !important;
+    display: block !important;
+    border-radius: 50% !important;
+    cursor: pointer;
+}
+
+.farmer-image-preview {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-wrapper-new {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--bs-body-bg);
+    padding: 1.5rem;
+    position: relative;
+    overflow: hidden;
+}
